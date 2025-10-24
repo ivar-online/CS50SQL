@@ -1,1 +1,1 @@
-SELECT "per_pupil_expenditure" FROM "expenditures"
+SELECT AVG("per_pupil_expenditure") FROM "expenditures";
